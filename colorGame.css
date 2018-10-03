@@ -1,0 +1,58 @@
+.square{
+	width: 30%;
+	background-color: #232323;
+	padding-bottom:30%;
+	margin:1.5%;
+	float: left;
+	border-radius: 15%;
+	transition: all 1.0s;
+}
+body{
+	background-color: #232323;
+	margin: 0%;
+}
+.container{
+	max-width: 600px;
+	margin: auto;
+	text-align: center;
+	    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#stripe{
+	background-color: white;
+}
+#nav{
+	background-color:  steelblue;
+	padding: 2px;
+	transition: all 1.0s;
+}
+button{
+	border:none;
+    background: none;
+    height: 100%;
+    text-transform: uppercase;
+    color:steelblue; 
+    font-weight: 700;
+    font-size: inherit;
+    letter-spacing: 1px;
+    transition: all 1.0s;
+
+}
+.selected{
+	background-color: steelblue;
+	color: white;
+}
+#message{
+	width: 20%;
+	display: inline-block;
+	color: steelblue;
+}
+button:hover{
+	background-color: steelblue;
+	color: white;
+}
+h1,h2{
+	color: white;
+	text-transform: uppercase;
+}
